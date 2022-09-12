@@ -7,5 +7,5 @@ import java.util.Map;
 @Value(staticConstructor = "of")
 public class GetFileResponse {
 
-    Map<Long, String> fileUrlAndId;
+    Map<Long, String> fileIdAndUrl;
 }
